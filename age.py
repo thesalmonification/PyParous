@@ -8,5 +8,8 @@ class age:
         self.weeks = weeks
 
     
+    def __repr__(self):
+        return "age('"+str(self.weeks)+"')"
+
     def __str__(self):
         return "age('"+str(self.weeks)+"')"
