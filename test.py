@@ -1,5 +1,6 @@
-from age import age
+from pyparous import age
 
-a = age(42.0)
+a = age(9.5)
+b = age(5.1)
 
-print(a)
+print(b-a)
