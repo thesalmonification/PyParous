@@ -51,7 +51,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 <br />
 
 <!-- Table of Contents -->
-# :notebook_with_decorative_cover: Table of Contents
+# Table of Contents
 
 
 - [Getting Started](#toolbox-getting-started)
@@ -69,15 +69,15 @@ Maybe you can mention me or this repo in the acknowledgements too
 
 
 <!-- Getting Started -->
-## 	:toolbox: Getting Started
+## Getting Started
 
 <!-- Prerequisites -->
-### :bangbang: Prerequisites
+### Prerequisites
 
 There are no required prerequisites! It only uses built-in Python methods.
 
 <!-- Installation -->
-### :gear: Installation
+### Installation
 
 Installation is recommended through the pip command.
 
@@ -87,7 +87,7 @@ Installation is recommended through the pip command.
    
 
 <!-- Usage -->
-## :eyes: Usage
+## Usage
 
 The PyParous project relies on the "age" object. The age object takes in a single float value representing the weeks and days the patient is currently pregnant. For example, a patient who is 39 weeks and 4 days age will be declared as follows:
 
@@ -116,14 +116,14 @@ from pyparous import age
 ```
 
 <!-- Roadmap -->
-## :compass: Roadmap
+## Roadmap
 
 * [x] Complete age definition and basic arithmetic
 * [ ] Perform age calculations based on a certain day or due date.
 
 
 <!-- Contributing -->
-## :wave: Contributing
+## Contributing
 
 <a href="https://github.com/thesalmonification/pyparous/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=thesalmonification/pyparous" />
@@ -131,19 +131,19 @@ from pyparous import age
 
 
 <!-- Code of Conduct -->
-### :scroll: Code of Conduct
+### Code of Conduct
 
 Please read the [Code of Conduct](https://github.com/thesalmonification/pyparous/blob/master/CODE_OF_CONDUCT.md)
 
 
 <!-- License -->
-## :warning: License
+## License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
 
 
 <!-- Contact -->
-## :handshake: Contact
+## Contact
 
 Duncan Salmon - drsalmon@tamu.edu
 
@@ -151,7 +151,7 @@ Project Link: [https://github.com/thesalmonification/pyparous](https://github.co
 
 
 <!-- Acknowledgments -->
-## :gem: Acknowledgements
+## Acknowledgements
 
 Use this section to mention useful resources and libraries that you have used in your projects.
 
