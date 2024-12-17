@@ -6,7 +6,7 @@ with open('README.md', "r") as f:
 
 setup(
     name='pyparous',
-    version='0.3',
+    version='0.4',
     packages=find_packages(),
     install_requires=[
     ],
