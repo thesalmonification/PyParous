@@ -18,7 +18,7 @@ permissions:
 jobs:
   release-build:
     runs-on: ubuntu-latest
-
+    environment: release
     steps:
       - uses: actions/checkout@v4
 
@@ -29,8 +29,7 @@ jobs:
       - name: Build release distributions
         run: |
           # NOTE: put your own distribution build steps here.
-          python -m pip install build
-          python -m build
+          python setup.py sdist bdist_wheel
 
       - name: Upload distributions
         uses: actions/upload-artifact@v4
